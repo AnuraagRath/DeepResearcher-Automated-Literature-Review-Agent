@@ -42,11 +42,11 @@ No need for API keys, tokens, or cloud LLMs. Works with your local Python enviro
 Test_TopicResearcher/
 │
 ├── deep_research_agent.py    # Main script
-├── README.md                   # This file
-├── results/                    # Output reports saved here
-│   ├── Agentic_Economics.md
-│   └── Cognitive_AI_Systems.md
-└── venv/                       # Local Python environment
+├── README.md                 # This file
+├── Example outputs/          # Output reports saved here
+│   ├── agentic_economics.md
+│   └── differential_equations_in_ecology.md
+└── venv/                     # Local Python environment
 
 ````
 
