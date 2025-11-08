@@ -1,0 +1,17 @@
+# === Core dependencies ===
+requests>=2.31.0
+python-dotenv>=1.0.1
+
+# === HTML and XML parsing ===
+beautifulsoup4>=4.12.3
+lxml>=5.2.1
+
+# === CLI + Typing support ===
+argparse
+typing-extensions>=4.12.0
+
+# === Optional: Markdown formatting ===
+markdownify>=0.12.1
+
+# === Optional: For nice terminal output ===
+rich>=13.7.1
