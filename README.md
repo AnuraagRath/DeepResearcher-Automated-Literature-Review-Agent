@@ -41,7 +41,7 @@ No need for API keys, tokens, or cloud LLMs. Works with your local Python enviro
 
 Test_TopicResearcher/
 │
-├── # deep_research_agent.py    # Main script
+├── deep_research_agent.py    # Main script
 ├── README.md                   # This file
 ├── results/                    # Output reports saved here
 │   ├── Agentic_Economics.md
