@@ -1,4 +1,3 @@
-
 import os
 import re
 import json
@@ -397,7 +396,8 @@ def consolidate_results(lists: List[List[Dict]], similarity_threshold: float = 0
             consolidated.append(new)
     # postprocess: convert source sets to sorted list and add a simple score
     for c in consolidated:
-        c['sources'] = sorted(list(c.get('sources', [])))
+        sources = [s for s in c.get('sources', []) if isinstance(s, str) and s.strip()]
+        c['sources'] = sorted(set(sources))
         # naive score: #sources + presence of doi
         c['score'] = len(c['sources']) + (1 if c.get('doi') else 0)
     # sort by score desc
