@@ -76,7 +76,7 @@ pip install -r requirements.txt
 ### 4️⃣ Run your first query
 
 ```bash
-python3 '# deep_research_agent.py' "Agentic Economics"
+python3 'deep_research_agent.py' "Agentic Economics"
 ```
 
 ---
